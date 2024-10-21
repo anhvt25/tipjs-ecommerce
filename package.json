@@ -2,7 +2,8 @@
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.21.1",
-    "helmet": "^8.0.0"
+    "helmet": "^8.0.0",
+    "mongoose": "^8.7.2"
   },
   "devDependencies": {
     "morgan": "^1.10.0"
