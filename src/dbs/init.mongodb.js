@@ -6,7 +6,7 @@ const {
   db: { host, name, port },
 } = require("../configs/config.mongodb");
 
-const connectString = `mongodb://${host}:${port}/${name}`;
+const connectString = `mongodb://admin:admin@${host}:${port}/${name}?authSource=admin`;
 class DataBase {
   constructor() {
     this.connect();
